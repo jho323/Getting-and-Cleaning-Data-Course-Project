@@ -26,7 +26,7 @@ How it was done:
       - using features.txt and setting it to the columns titles using colnames() into sorteddata
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
       - Grouping the data by identifier and activity and using summarize_each to take the mean of each column by group into tidydata
-
+      - writes an example of tidy data into tidydata.txt
 Variables:
 
 test_subject: data of subject_test.txt

@@ -79,9 +79,10 @@ tidydata <- sorteddata %>% group_by(identifier,activity) %>%summarize_each(funs 
   print
 
 
+
 if (!file.exists("./tidydata.txt")){
   
-  write.table(tidydata,file = "./tidydata.txt",sep = "",quote = FALSE,row.names = FALSE)
+  write.table(tidydata,file = "./tidydata.txt",sep = " ",row.names = FALSE)
 }
 
 
